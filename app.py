@@ -1,11 +1,13 @@
 from flask import Flask, render_template, request
 
-import numpy as np
 import data
 
 
 def chatbot_response(msg):
-    document = data.read_pdf(msg)
+    if (data.is_pdf(msg)):
+        document = data.read_pdf(msg)
+    else:
+        document = msg
     return data.summarize(document)
 
 
