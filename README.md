@@ -41,7 +41,7 @@ Replace `your_api_key_here` with your actual OpenAI API key.
 Navigate to the project directory and install the necessary Python dependencies using pip:
 
 ```bash
-cd pdfsummarizer
+cd Notetaker
 pip install -r requirements.txt
 ```
 
@@ -64,7 +64,7 @@ This will start the development server, and you should see a message indicating 
 ### 5. Using the App
 
 1. Open your web browser and navigate to `http://127.0.0.1:5000/`.
-2. Upload a PDF document that you want to summarize to the pdfsummarizer folder
+2. Upload a PDF document that you want to summarize to the Notetaker folder
 3. Enter the name of the PDF (name.pdf)
 4. Click send
 
