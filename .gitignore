@@ -1,6 +1,6 @@
 *.txt
 *.pdf
 .vscode
-pycache
+__pycache__
 .pychache
 venv
