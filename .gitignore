@@ -1,5 +1,6 @@
 *.txt
 *.pdf
 .vscode
-.pycache
+pycache
+.pychache
 venv

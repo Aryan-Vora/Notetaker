@@ -111,7 +111,7 @@ def summarize(document):
 
         summaries = []
         for chunk in chunks:
-            prompt = "Please take notes on this. They should be in bullet points and cover main ideas. Do not take too many notes. They should be short and concise, but also have the flexibility to be longer if need be. "
+            prompt = "Please take notes on this. They should be in bullet points and cover ONLY MAIN IDEAS AND IMPORTANT TOPICS. Do not take too many notes. They should be short and concise, but also have the flexibility to be longer if need be. Include quotes and paraphrases. "
             summary = gpt3_completion(prompt + chunk)
             if summary.startswith("GPT-3 error:"):
                 continue
