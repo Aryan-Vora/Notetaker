@@ -63,23 +63,8 @@ This will start the development server, and you should see a message indicating 
 
 ### 5. Using the App
 
-1. Open your web browser and navigate to `http://127.0.0.1:5000/`.
+1. Open your web browser and go to `http://127.0.0.1:5000/`.
 2. Upload a PDF document that you want to summarize to the Notetaker folder
 3. Enter the name of the PDF (name.pdf)
 4. Click send
 
-## About the Code
-
-The Flask PDF Summarizer App is built using Flask, a popular web framework for Python. It uses OpenAI's GPT-3.5 model to summarize PDF documents and provides a user-friendly interface for interacting with the AI.
-
-### Dependencies
-
-The app relies on several Python packages, including Flask, PyMuPDF (fitz), OpenAI, NLTK, and FPDF. These dependencies are listed in the `requirements.txt` file.
-
-## License
-
-This project is open source and is available under the MIT License. You are free to use and modify the code as you see fit.
-
-Thank you for using the Flask PDF Summarizer App! If you have any questions or encounter any issues, please don't hesitate to reach out for assistance.
-
-**Happy summarizing!**
