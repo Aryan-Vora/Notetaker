@@ -1,7 +1,4 @@
 # PDF Summarizer App
-
-Welcome to the PDF Summarizer App, a web application that uses AI to summarize PDF documents. This app leverages the power of the OpenAI GPT-3.5 model to provide concise and coherent summaries of your PDF files. With this app, you can quickly extract the key information from your PDF documents in a user-friendly web interface.
-
 ## Setup Instructions
 
 Follow these instructions to set up and run the Summarizer on your local machine.
