@@ -105,7 +105,7 @@ def convert_to_pdf(textfile):
 
 
 def summarize(document):
-    f = open("output.txt", "w")
+    f = open("output.txt", "w", encoding="utf-8")
     if is_pdf(document):
         chunks = split_text(document)
 
